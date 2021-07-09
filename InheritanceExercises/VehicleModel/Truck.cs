@@ -19,9 +19,9 @@ namespace InheritanceExercises.Model
             this.sleepPlace = sleepPlace;
         }
 
-        public override void Drive()
+        public new string Drive()
         {
-            throw new NotImplementedException();
+            return "Truck.";
         }
     }
 }

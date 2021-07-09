@@ -19,9 +19,9 @@ namespace InheritanceExercises.Model
             this.bagspace = bagspace;
         }
 
-        public override void Drive()
+        public new string Drive()
         {
-            throw new NotImplementedException();
+            return "Motorcycle.";
         }
     }
 }

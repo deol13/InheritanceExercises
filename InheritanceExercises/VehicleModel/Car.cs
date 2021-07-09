@@ -21,9 +21,9 @@ namespace InheritanceExercises.Model
             this.towbar = towbar;
         }
 
-        public override void Drive()
+        public override string Drive()
         {
-            throw new NotImplementedException();
+            return "Car.";
         }
     }
 }

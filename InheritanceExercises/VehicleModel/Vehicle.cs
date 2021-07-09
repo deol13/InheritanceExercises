@@ -7,7 +7,7 @@ namespace InheritanceExercises.Model
     /// <summary>
     /// Base class
     /// </summary>
-    public abstract class Vehicle
+    public class Vehicle
     {
         public readonly string model;
         public readonly string brand;
@@ -22,6 +22,9 @@ namespace InheritanceExercises.Model
             this.horsePowers = horsePowers;
         }
 
-        public abstract void Drive();
+        public virtual string Drive()
+        {
+            return "Vehicle.";
+        }
     }
 }
